@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Zag Regular';
+    src: url(../fonts/Zag-Regular.ttf);
+}
+.background{
+    background-image: linear-gradient(60deg, #4F78D4, #C28E9B);
+    width: 100%;
+    height: 100vh;
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .clock{
+            height: 210px;
+            width: 600px;
+            padding: 45px 10px;
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 10px;
+            font-family: 'Zag Regular';
+            user-select: none;
+            .clock-inner{
+                height: 90px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+                .clock-col{
+                    
+                    .time{
+                        text-transform: uppercase;
+                        font-size: 67px;
+                    }
+                    span{
+                        display: block;
+                    }
+                    
+                    .clock-label{
+                        color: #ffffff7c;
+                        text-transform: uppercase;
+                    }
+                }
+                .hour{
+                    padding-right: 80px;
+                    padding-left: 80px;
+                }
+                .minute{
+                    padding-right: 80px;
+                }
+            }
+        }
+    }
+}

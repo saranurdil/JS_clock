@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Zag Regular';
+  src: url(../fonts/Zag-Regular.ttf);
+}
+
+.background {
+  background-image: linear-gradient(60deg, #4F78D4, #C28E9B);
+  width: 100%;
+  height: 100vh;
+}
+
+.background .container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background .container .clock {
+  height: 210px;
+  width: 600px;
+  padding: 45px 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: 'Zag Regular';
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.background .container .clock .clock-inner {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background .container .clock .clock-inner .clock-col .time {
+  text-transform: uppercase;
+  font-size: 67px;
+}
+
+.background .container .clock .clock-inner .clock-col span {
+  display: block;
+}
+
+.background .container .clock .clock-inner .clock-col .clock-label {
+  color: #ffffff7c;
+  text-transform: uppercase;
+}
+
+.background .container .clock .clock-inner .hour {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.background .container .clock .clock-inner .minute {
+  padding-right: 80px;
+}
+/*# sourceMappingURL=style.css.map */
